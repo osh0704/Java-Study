@@ -15,6 +15,7 @@ public class codeUp_4816 {
         if(T >= C){
             second = T / C;
         }
-        System.out.print(fiveMin + " " + min + " "  + second);
+        if (fiveMin + min + second == 0) System.out.println(-1);
+        else System.out.print(fiveMin + " " + min + " "  + second);
     }
 }
