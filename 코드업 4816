@@ -3,7 +3,7 @@ public class codeUp_4816 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         int T = scanner.nextInt();
-        int A = 300, B = 60, C = 10, fiveMin = 0, min = 0, second = 0;
+        int A = 300, B = 60, C = 10, fiveMin = 0, min = 0, second = 0, t;
         if (T >= A){
             fiveMin = T / A;
             T %= A;
